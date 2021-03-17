@@ -1,4 +1,4 @@
-#Spatial analysis tool
+# Spatial analysis tool
 
 Exactly one raster layer is required, if you work with outsourced raster, mask is required.
 
