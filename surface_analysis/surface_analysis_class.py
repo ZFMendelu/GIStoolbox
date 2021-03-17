@@ -7,10 +7,10 @@ class surface_analysis:
         self.mask = parameters["mask"]
         self.out_name = parameters["out_name"]
         self.out_folder = parameters["out_folder"]
-        self.checkType(parameters)
+        self.check_type(parameters)
 
 
-    def checkType(self, parameters):
+    def check_type(self, parameters):
         if len(parameters["in_raster_wms_str"]) > 0:
             self.in_raster = parameters["in_raster_wms"]
             self.in_raster_text = parameters["in_raster_wms_str"]
